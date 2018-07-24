@@ -10,6 +10,6 @@ def oxford_comma(array)
   elsif num == 2
 	  return array_2.join(" and ")
   elsif num == 1
-	  return array_2
+	  return laststring
   end
 end
